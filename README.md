@@ -8,6 +8,8 @@ The ServerGreeter plugin enhances the welcoming experience for players joining y
 - **Configuration Reload Command:** The `/sg reload` command allows administrators to reload the plugin configuration in-game, facilitating easy customization without server restarts.
 - **Test Title Command:** Administrators can manually trigger the welcome title message using the `/sg test` command, providing a convenient way to preview the welcome message without waiting for a player to join.
 
+![image](https://github.com/Chazzvdh/ServerGreeter/assets/114153884/84d31e8a-62f3-458e-859e-693645a62f3c)
+
 **Usage:**
 
 - **/sg reload:** Reloads the plugin configuration, applying any changes made to the welcome message or other settings without restarting the server. This command is essential for administrators to customize the welcome message on the fly.

@@ -1,0 +1,7 @@
+# Default configuration
+placeholders:
+  # The server name to display in the welcome message
+  server_name: "&aMy Minecraft Server"
+
+  # The welcome message to display to the player
+  welcome_message: "&fWelcome to our server, %player%!"

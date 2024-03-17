@@ -1,0 +1,19 @@
+name: ServerGreeter
+version: '${project.version}'
+main: org.example.plugin.servergreeter.ServerGreeter
+api-version: '1.20'
+
+commands:
+  sg:
+    description: Main command for ServerGreeter plugin
+    usage: /sg <reload|test>
+    permission: servergreeter.command
+    children:
+      reload:
+        description: Reloads the configuration
+        usage: /sg reload
+        permission: servergreeter.reload
+      test:
+        description: Triggers a test title message
+        usage: /sg test
+        permission: servergreeter.test
